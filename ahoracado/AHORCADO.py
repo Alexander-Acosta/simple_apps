@@ -54,7 +54,7 @@ def obtener_palabra():#funcion para obtener una palabra de una lista de manera a
     adivinar=[]
     opciones=[]
     try:            #apertura de archivo#
-        archivo=open("E:\\programacion\\pro1\\obligatorio\\ahorcadoTrueMetal\\esp.txt","r")          #ruta del archivo#
+        archivo=open("./esp.txt","r")          #ruta del archivo#
     except IOError:
         print "NO SE PUDO ABRIR EL ARCHIVO. VERIFIQUE EL PATH O SI EL ARCHIVO EXISTE"           #imprimir en caso de que el archivo no existe o la ruta es incorrecta#   
         sys.exit()

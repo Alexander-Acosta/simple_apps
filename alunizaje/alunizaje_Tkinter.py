@@ -165,9 +165,9 @@ f.pack()
 f.focus_set()
 
 
-fondo=PhotoImage(file=('E:\\programacion\\pro1\\obligatorio\\alunizaje\\alunizaje\\fondo.gif'))
-nave=PhotoImage(file=('E:\\programacion\\pro1\\obligatorio\\alunizaje\\alunizaje\\naveV2.gif'))
-alien=PhotoImage(file=('E:\\programacion\\pro1\\obligatorio\\alunizaje\\alunizaje\\alien.gif'))
+fondo=PhotoImage(file=('./fondo.gif'))
+nave=PhotoImage(file=('./naveV2.gif'))
+alien=PhotoImage(file=('./alien.gif'))
 c= Canvas(r,width=800,height=600)
 escenario=c.create_image(400,300,image=fondo)
 velocidad=c.create_text(750,50,text=(vr.spd,'M/s'),font='times 15 bold',fill='white',tag='velocidad')
